@@ -20,8 +20,7 @@ namespace RaiseExecuteChangeRepo.ViewModel
         private RelayCommand navigateCommand;
 
         public MainViewModel(
-            INavigationService navigationService, 
-            IMessenger messengerService)
+            INavigationService navigationService)
         { 
             this.navigationService = navigationService;
             this.Data = new ObservableCollection<AnotherVM>();
